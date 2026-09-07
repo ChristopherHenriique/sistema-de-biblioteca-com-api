@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <b>Biblioteca</b>
+            <span id="user"></span>
+        </div>
+        <button onclick="sair()">Sair</button>
+    </header>
+    <nav>
+        <button onclick="abrir('dashboard')">Dashboard</button>
+        <button onclick="abrir('livros')">Livros</button>
+        <button onclick="abrir('usuarios')">Usuários</button>
+        <button onclick="abrir('emprestimos')">Empréstimos</button>
+    </nav>
+    <main>
+        <section id="dashboard">
+            <h1>Dashboard</h1>
+            <div class="stats">
+                <div>
+                    
+                    <b id="qLivros">0</b>
+                    <span>Livros</span>
+                </div>
+                <div>
+                    
+                    <b id="qUsuarios">0</b>
+                    <span>Usuários</span>
+                </div>
+                <div>
+                    
+                    <b id="qEmp">0</b>
+                    <span>Empréstimos</span>
+                </div>
+                <div>
+                    
+                    <b id="qDisp">0</b>
+                    <span>Disponíveis</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="livros" hidden>
+            <h1>Livros</h1>
+            <form id="formLivro">
+                <input id="titulo" placeholder="Título" required>
+                <input id="autor" placeholder="Autor" required>
+                <input id="categoria" placeholder="Categoria">
+                <input id="ano" type="number" placeholder="Ano">
+                <button>Adicionar livro</button>
+            </form>
+            <input class="busca" id="buscaLivro" placeholder="Buscar livro...">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Categoria</th>
+                        <th>Status</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="tbLivros"></tbody>
+            </table>
+        </section>
+
+        <section id="usuarios" hidden>
+            <h1>Usuários</h1>
+            <form id="formUsuario">
+                <input id="nome" placeholder="Nome" required>
+                <input id="email" type="email" placeholder="E-mail" required>
+                <input id="senhaNovo" placeholder="Senha" required>
+                <select id="tipo">
+                    <option>CLIENTE</option>
+                    <option>ATENDENTE</option>
+                    <option>ADM</option>
+                </select>
+                <button>Adicionar usuário</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Tipo</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody id="tbUsuarios"></tbody>
+            </table>
+        </section>
+
+        <section id="emprestimos" hidden>
+            <h1>Empréstimos</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Quem alugou</th>
+                        <th>Livro alugado</th>
+                        <th>Data do aluguel</th>
+                        <th>Data da devolução</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="tbEmp"></tbody>
+            </table>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Biblioteca | Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+    <h1>Biblioteca</h1>
+
+    <div id="areaLogin">
+        <h2>Login</h2>
+        <p>Entre para acessar sua área.</p>
+
+        <form id="loginForm">
+            <label>E-mail
+                <input id="email" type="email" required>
+            </label>
+
+            <label>Senha
+                <input id="senha" type="password" required>
+            </label>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <button type="button" id="abrirCadastro" class="secundario">
+            Criar conta de cliente
+        </button>
+    </div>
+
+    <div id="areaCadastro" hidden>
+        <h2>Cadastro de Cliente</h2>
+
+        <form id="cadastroForm">
+            <label>Nome
+                <input id="cadNome" required>
+            </label>
+
+            <label>E-mail
+                <input id="cadEmail" type="email" required>
+            </label>
+
+            <label>Senha
+                <input id="cadSenha" type="password" required>
+            </label>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <button type="button" id="voltarLogin" class="secundario">
+            Voltar para login
+        </button>
+    </div>
+
+    <p id="msg"></p>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

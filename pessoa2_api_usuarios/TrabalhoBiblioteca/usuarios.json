@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nome": "Administrador",
+        "email": "admin@biblioteca.com",
+        "senha": "123456",
+        "tipo": "ADM"
+    },
+    {
+        "id": 3,
+        "nome": "Maria Souza",
+        "email": "maria@biblioteca.com",
+        "senha": "123456",
+        "tipo": "ATENDENTE"
+    }
+]

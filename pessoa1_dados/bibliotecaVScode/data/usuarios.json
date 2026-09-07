@@ -1,0 +1,44 @@
+[
+  {
+    "id": 2,
+    "nome": "Maria Oliveira",
+    "email": "maria@biblioteca.com",
+    "senha": "123",
+    "tipo": "CLIENTE"
+  },
+  {
+    "id": 3,
+    "nome": "Vania",
+    "email": "vania@gmail.com",
+    "senha": "1234",
+    "tipo": "ADM"
+  },
+  {
+    "id": 5,
+    "nome": "Atendente Biblioteca",
+    "email": "atendente@biblioteca.com",
+    "senha": "123456",
+    "tipo": "ATENDENTE"
+  },
+  {
+    "id": 6,
+    "nome": "jon",
+    "email": "jon@gmail.com",
+    "senha": "123",
+    "tipo": "CLIENTE"
+  },
+  {
+    "id": 7,
+    "nome": "chrsi",
+    "email": "chris@gmail.com",
+    "senha": "123",
+    "tipo": "CLIENTE"
+  },
+  {
+    "id": 8,
+    "nome": "pop",
+    "email": "pop@pop.com",
+    "senha": "123",
+    "tipo": "CLIENTE"
+  }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Biblioteca - Área do Cliente</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Biblioteca Web</h1>
+  <button type="button" id="botaoSair" onclick="sair()">Sair</button></header>
+
+  <main>
+    
+    
+<section class="filtros">
+  <input type="text" id="searchInput" placeholder="Buscar por título ou autor..." oninput="filtrarLivros()">
+  <input type="text" id="categoriaInput" placeholder="Digite a categoria (ex: Tecnologia)..." oninput="filtrarLivros()">
+</section>
+
+    
+    <section>
+      <h2>Catálogo de Livros</h2>
+      <div id="gridLivros" class="grid"></div>
+    </section>
+
+    <hr>
+
+    
+    <section>
+      <h2>Meus Empréstimos</h2>
+      <div id="gridEmprestimos" class="grid"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

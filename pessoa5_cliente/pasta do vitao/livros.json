@@ -1,0 +1,58 @@
+[
+  {
+    "id": 101,
+    "titulo": "Engenharia de Software",
+    "autor": "Ian Sommerville",
+    "categoria": "Tecnologia",
+    "ano": 2019,
+    "situacao": "DISPONIVEL"
+  },
+  {
+    "id": 102,
+    "titulo": "Código Limpo",
+    "autor": "Robert C. Martin",
+    "categoria": "Tecnologia",
+    "ano": 2009,
+    "situacao": "EMPRESTADO"
+  },
+  {
+    "id": 103,
+    "titulo": "O Programador Pragmático",
+    "autor": "Andrew Hunt e David Thomas",
+    "categoria": "Tecnologia",
+    "ano": 2019,
+    "situacao": "DISPONIVEL"
+  },
+  {
+    "id": 104,
+    "titulo": "Entendendo Algoritmos",
+    "autor": "Aditya Y. Bhargava",
+    "categoria": "Tecnologia",
+    "ano": 2017,
+    "situacao": "DISPONIVEL"
+  },
+  {
+    "id": 105,
+    "titulo": "Dom Quixote",
+    "autor": "Miguel de Cervantes",
+    "categoria": "Literatura",
+    "ano": 1605,
+    "situacao": "EMPRESTADO"
+  },
+  {
+    "id": 106,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "categoria": "Ficção Científica",
+    "ano": 1949,
+    "situacao": "DISPONIVEL"
+  },
+  {
+    "id": 107,
+    "titulo": "O Conectoma",
+    "autor": "Sebastian Seung",
+    "categoria": "Ciência",
+    "ano": 2012,
+    "situacao": "DISPONIVEL"
+  }
+]

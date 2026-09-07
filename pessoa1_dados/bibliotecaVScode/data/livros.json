@@ -1,0 +1,10 @@
+[
+  {
+    "id": 101,
+    "titulo": "naruto",
+    "autor": "akira",
+    "categoria": "anime",
+    "ano": 2000,
+    "situacao": "DISPONIVEL"
+  }
+]
